@@ -1,6 +1,6 @@
-const { app, BrowserWindow } = require('electron')
-const path = require('path')
-const url = require('url')
+const { app, BrowserWindow } = require('electron');
+const path = require('path');
+const url = require('url');
 
 function createWindow() {
   const win = new BrowserWindow({
@@ -8,16 +8,16 @@ function createWindow() {
     height: 720,
     frame: false,
     titleBarStyle: 'hidden'
-  })
+  });
 
   const startUrl = process.env.ELECTRON_START_URL || url.format({
     pathname: path.join(__dirname, '/../build/index.html'),
     protocol: 'file:',
     slashes: true
-  })
+  });
   
   win.loadURL(startUrl);
 
 }
 
-app.on('ready', createWindow)
+app.on('ready', createWindow);
