@@ -5,7 +5,7 @@ import './LoginForm.css';
 const LoginForm = () => {
   return (
     <div className="login-form">
-      <h3>서비스 이용을 위해서는 로그인이 필요합니다.</h3>
+      <h3 className="no-drag">서비스 이용을 위해서는 로그인이 필요합니다.</h3>
       <AuthInput 
         type={'email'}
         placeholder={'이메일'}
