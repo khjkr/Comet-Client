@@ -1,8 +1,12 @@
 import React from 'react';
+import { LoginForm, RegisterForm } from '../components/';
 
 function Portal() {
   return (
-    <h1>Portal Page</h1>
+    <>
+      <LoginForm />
+      <RegisterForm />
+    </>
   );
 }
 

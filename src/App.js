@@ -1,5 +1,5 @@
 import React from 'react';
-import { Portal } from './pages/index'
+import { Portal } from './pages/'
 
 function App() {
   return (
