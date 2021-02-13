@@ -1,6 +1,6 @@
 import React from 'react';
 
-function LoginForm() {
+const LoginForm = () => {
   return <h1>Login Form</h1>
 };
 

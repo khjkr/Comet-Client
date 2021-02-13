@@ -1,7 +1,7 @@
 import React from 'react';
 import { LoginForm, RegisterForm } from '../components/';
 
-function Portal() {
+const Portal = () => {
   return (
     <>
       <LoginForm />

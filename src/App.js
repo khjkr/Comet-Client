@@ -1,7 +1,7 @@
 import React from 'react';
-import { Portal } from './pages/'
+import { Portal } from './pages/';
 
-function App() {
+const App = () => {
   return (
     <Portal />
   );

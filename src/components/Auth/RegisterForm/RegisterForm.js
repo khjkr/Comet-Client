@@ -1,6 +1,6 @@
 import React from 'react';
 
-function RegisterForm() {
+const RegisterForm = () => {
   return <h1>Register Form</h1>
 };
 
