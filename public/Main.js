@@ -1,3 +1,5 @@
+require('v8-compile-cache');
+
 const { app, BrowserWindow } = require('electron');
 const path = require('path');
 const url = require('url');
@@ -17,7 +19,6 @@ function createWindow() {
   });
   
   win.loadURL(startUrl);
-
 }
 
 app.on('ready', createWindow);
