@@ -7,7 +7,6 @@ const Portal = () => {
     <>
       <LogoTitle />
       <LoginForm />
-      <RegisterForm />
     </>
   );
 }

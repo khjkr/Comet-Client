@@ -1,5 +1,9 @@
-.Title {
+.title {
   font-size: 48px;
   margin-top: 200px;
+  text-align: center;
+}
+
+.sub-title {
   text-align: center;
 }
